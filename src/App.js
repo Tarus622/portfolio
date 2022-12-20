@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './index.css';
-import Header from './Components/Header';
+import Body from './Components/Body';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element= {<Header/>}/>
+        <Route path='/' element= {<Body/>}/>
       </Routes>
     </div>
   );
